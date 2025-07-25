@@ -26,7 +26,7 @@ while True:
     try:
         nota = float(entrada)
         notas.append(nota)
-        soma += nota  # Somando corretamente apenas a nota nova
+        soma += nota
         media = soma / len(notas)
     except ValueError:
         print("Entrada inválida! Por favor, digite um número ou 'fim'.")
